@@ -2,7 +2,6 @@ import asyncio
 
 from loader import bot, dp
 
-asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 from handlers import (
     start_router,
